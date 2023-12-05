@@ -1,5 +1,5 @@
 import x from "../../assets/x.jpg";
-import linkedin from "../../assets/Linkedin.svg";
+import linkedin from "../../assets/linkedin.svg";
 import instagram from "../../assets/instagram.jpg";
 import git from "../../assets/git2.png";
 
@@ -14,7 +14,7 @@ function Footer() {
              Full Stack Developer on a mission to turn ideas into seamless web solutions.
           </p>
         </div>
-        
+
         <div className="flex flex-col gap-3 lg:gap-8">
           <h4 className="text-xl font-semibold ">SOCIAL</h4>
           <div className="flex  gap-4   ">
