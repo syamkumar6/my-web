@@ -1,5 +1,5 @@
 import x from "../../assets/x.svg";
-import linkedin from "../../assets/Linkedin.svg";
+import linkedin from "../../assets/linkedin.svg";
 import instagram from "../../assets/instagram.svg";
 import git from "../../assets/github.svg";
 import backgroundImage from '../../assets/bg1.jpg'
@@ -26,7 +26,7 @@ function Home() {
       </div>
       
       <div className="flex flex-col items-center justify-center mt-8 pt-8">
-        
+
         <h1 className="text-3xl lg:text-6xl font-bold mt-8 pt-8 font-customFont1 text-gray-800">
           HEY, I&apos;M SYAM KUMAR
         </h1>
