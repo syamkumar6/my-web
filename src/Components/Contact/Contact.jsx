@@ -11,10 +11,10 @@ function Contact() {
     const formElement = e.target;
 
     emailjs.sendForm(
-      import.meta.env.VITE_EMAILJS_SERVICE_ID,
-      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+      "service_ag6ql3d",
+      "template_gqis1pd",
       formElement,
-      import.meta.env.VITE_EMAILJS_PUBLIC_ID)
+      "D_bES6Cy1hgbX9-dk")
       .then((result) => {
           console.log(result.text);
           toast.success('Message send Successfully!')
