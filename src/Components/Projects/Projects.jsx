@@ -2,6 +2,7 @@ import gitIcon from '../../assets/github.svg'
 import omegaImg from '../../assets/omega.png'
 import gucciImg from '../../assets/gucci.png'
 import cstocksImg from '../../assets/c-stocks.png'
+import notetickImg from '../../assets/notetick.png'
 
 function Projects() {
   return (
@@ -28,6 +29,22 @@ function Projects() {
                             <a href="https://cstocks-io.vercel.app">view project</a>
                         </button>
                         <a href="https://github.com/syamkumar6/my-web" className='flex items-center text-purple-700 underline font-semibold gap-2'>view code<img src={gitIcon} alt="" className='w-10'/></a>
+                        </div>
+                    </div>
+                </li>
+                <li className="lg:grid grid-cols-2 gap-4  m-8">
+                    <img src={notetickImg} alt="" className="w-full max-w-xl px-8 mb-2 border-8 rounded" />
+                    <div className="flex flex-col px-6 ">
+                        <h5 className="text-2xl font-customFont1 mb-3 lg:mb-8">Note-Tick</h5>
+                        <p className="font-customFont2">Welcome to the <span className='font-bold'>Vite React</span>  Todo App with Express and MongoDB 
+                        repository! This project combines the power of Vite and React.js on the frontend with an 
+                         <span className='font-bold'>Express.js</span> backend and MongoDB for a complete full-stack todo application.
+                        </p>
+                        <div className='flex items-center justify-between'>
+                        <button className=" my-8 bg-purple-700 hover:bg-purple-600 text-white py-2 px-5 rounded-xl font-semibold self-start">
+                            <a href="https://note-tick-io.vercel.app/">view project</a>
+                        </button>
+                        <a href="https://github.com/syamkumar6/todo.web" className='flex items-center text-purple-700 underline font-semibold gap-2'>view code<img src={gitIcon} alt="" className='w-10'/></a>
                         </div>
                     </div>
                 </li>
