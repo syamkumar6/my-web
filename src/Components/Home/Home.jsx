@@ -10,10 +10,10 @@ function Home() {
 
       <div className="hidden lg:block absolute top-1/2 left-0 transform -translate-y-1/2">
         <div className="flex flex-col gap-4 bg-white border-slate-200 p-3">
-          <a href="#" className="p-2 hover:border rounded-md border-purple-400 duration-100 ">
+          <a href="https://www.linkedin.com/in/syam-kumar-4491342a0/" className="p-2 hover:border rounded-md border-purple-400 duration-100 ">
             <img src={linkedin} alt="" className="w-8" />
           </a>
-          <a href="#" className="p-2 hover:border rounded-md border-purple-400 duration-100 ">
+          <a href="https://github.com/syamkumar6" className="p-2 hover:border rounded-md border-purple-400 duration-100 ">
             <img src={git} alt="" className="w-8" />
           </a>
           <a href="#" className="p-2 hover:border rounded-md border-purple-400 duration-100 ">
